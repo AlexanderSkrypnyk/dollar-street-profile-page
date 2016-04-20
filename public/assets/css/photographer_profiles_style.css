@@ -1,0 +1,103 @@
+a:focus, a:hover {
+    color: #e0e7ef;
+    text-decoration: none;
+}
+
+#footer {
+    height: 100%;
+    background-image: url(/assets/images/bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+    padding: 50px 0;
+}
+
+#footer:after {
+    content: "";
+    background-image: url(/assets/images/plaha.png);
+    background-size: cover;
+    opacity: 0.95;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+#footer a {
+    color: #e0e7ef;
+}
+
+#footer .container {
+    position: relative;
+    z-index: 1;
+}
+
+#footer .footer-container {
+    display: table;
+    width: 100%;
+}
+
+#footer .footer-content {
+    display: table-row;
+}
+
+#footer .footer-content > div {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+#share-buttons {
+    font-size: 26px;
+}
+
+#share-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#dollar-street {
+    text-align: center;
+}
+
+#dollar-street h2 {
+    color: white;
+    font-family: 'Bariol Regular', sans-serif;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+#dollar-street p {
+    font-family: 'Bariol Regular', sans-serif;
+    color: #e0e7ef;
+    font-size: 18px;
+}
+
+#creative-commons {
+    text-align: right;
+}
+
+#creative-commons a i {
+    font-size: 30px;
+    vertical-align: super;
+}
+
+#creative-commons a span {
+    color: #e0e7ef;
+    font-family: 'Arial Regular' ,sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: left;
+    line-height: 1;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1400px;
+    }
+}
