@@ -1,0 +1,29 @@
+/*  nav button   */
+
+.navbar-toggle{
+    padding: 3px 2px;
+    position: fixed;
+    right: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #374551;
+    width: 22px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: table;
+
+    }
+}
+
+@media (min-width: 1420px) {
+    .container {
+        width: 1400px;
+    }
+}
