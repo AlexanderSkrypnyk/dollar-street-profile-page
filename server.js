@@ -7,20 +7,22 @@ var profile = [{
   firstName: 'Boryna',
   country: 'Ukraine',
   places: [1, 3],
+  photo: '00',
   description: 'Some text about photographer ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu varius erat. Suspendisse ultricies laoreet diam eget pulvinar. Morbi imperdiet nibh purus, Some text about photographer ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu varius erat. Suspendisse ultricies laoreet diam eget pulvinar. Morbi imperdiet nibh purus ...'
 }];
 
 var countries = [
-  {countryName: 'Nigeria', families: [4], _id: 5},
-  {countryName: 'Philippines', families: [1, 2], _id: 6},
-  {countryName: 'China', families: [3], _id: 7}
+  {countryName: 'Nigeria', families: [4], _id: 6},
+  {countryName: 'Philippines', families: [1, 2], _id: 7},
+  {countryName: 'China', families: [3], _id: 8}
 ];
 
 var places = [
-  {familyPhoto: '00', familyName: 'Pradas', income: 75, region: 'asia', country: '', _id: 1},
-  {familyPhoto: '00', familyName: 'Shemede', income: 76, region: 'asia', country: '', _id: 2},
-  {familyPhoto: '00', familyName: 'Alu\'s', income: 80, region: 'africa', country: '', _id: 3},
-  {familyPhoto: '00', familyName: 'Shemede', income: 86, region: 'africa', country: '', _id: 4}
+  {familyPhoto: '00', familyName: 'Pradas', income: 75, region: 'asia', country: 'Philippines', _id: 1},
+  {familyPhoto: '00', familyName: 'Shemede', income: 76, region: 'asia', country: 'Philippines', _id: 2},
+  {familyPhoto: '00', familyName: 'Alu\'s', income: 80, region: 'africa', country: 'China', _id: 3},
+  {familyPhoto: '00', familyName: 'Shemede', income: 86, region: 'africa', country: 'Nigeria', _id: 4},
+  {familyPhoto: '00', familyName: 'Dudakova', income: 96, region: 'europe', country: 'Ukraine', _id: 5}
 ];
 
 app.use(express.static('public'));
