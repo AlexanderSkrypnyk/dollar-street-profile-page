@@ -1,7 +1,5 @@
 .line {
-    width: 200px;
-    height: 1px;
-    background-color: #e2e6ec;
+    border-bottom: 1px solid #e2e6ec;
 }
 
 #photographer-photo {
