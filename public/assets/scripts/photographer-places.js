@@ -36,14 +36,19 @@ window.onload = function () {
                 var person = document.createElement('div');
                 person.className = 'photographerData';
                 person.innerHTML =
-                    '<div><img  src="' + photographer.photo + '" /></div><br>' +
-                    '<div>' + photographer.firstName + ' ' + photographer.lastName + '</div><br>' +
-                    '<div><img src="assets/images/pin56-copy-8.png" /> ' + photographer.country + '</div><br>' +
-                    '<div>' + photographer.description + '</div><br>';
+                    '<div class="profile-photo"><img  src="' + photographer.photo + '" /></div><br>' +
+                    '<div class="full-name">' + photographer.firstName + ' ' + photographer.lastName + '</div><br>' +
+                    '<div class="photographer-country"><img src="assets/images/pin56-copy-8.png" /> ' + photographer.country + '</div><br>' +
+                    '<div class=" description-profile">' + photographer.description + '</div><br><div class="line"></div><br>' +
+                    '<div class="total-info"><img src="assets/images/visited-families.png"> Visited Families: <span>' + photographer.visitedFamilies + '</span></div><br>' +
+                    '<div class="total-info"><img src="assets/images/total-photo.png"> Total Photos: <span> ' + photographer.totalPhotos + '</span></div><br>' +
+                    '<div class="total-info"><img src="assets/images/video.png"> Total Videos: <span>' + photographer.totalVideos + '</span></div><br><div class="line"></div><br>' +
+                    '<div class="organization-photographer">ORGANIZATION</div><div>' + photographer.organization + '</div><br><div class="line"></div><br>' +
+                    '<div class="web-photographer">ON THE WEB</div><div>' + photographer.web + '</div>';
 
                 profileContainer.appendChild(person);
             });
         }
     };
     xhrProfile.send();
-}
+};
