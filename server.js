@@ -8,7 +8,12 @@ var profile = [{
   country: 'Ukraine',
   places: [1, 3],
   photo: '00',
-  description: 'Some text about photographer ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu varius erat. Suspendisse ultricies laoreet diam eget pulvinar. Morbi imperdiet nibh purus, Some text about photographer ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu varius erat. Suspendisse ultricies laoreet diam eget pulvinar. Morbi imperdiet nibh purus ...'
+  visitedFamilies: 45,
+  totalPhotos: 5874,
+  totalVideos: 3,
+  description: 'Some text about photographer ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu varius erat. Suspendisse ultricies laoreet diam eget pulvinar. Morbi imperdiet nibh purus, Some text about photographer ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu varius erat. Suspendisse ultricies laoreet diam eget pulvinar. Morbi imperdiet nibh purus ...',
+  organization: 'Cosmos',
+  web: 'www.cosmos.com'
 }];
 
 var countries = [
