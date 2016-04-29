@@ -1,20 +1,89 @@
+body {
+    font-family: 'Bariol Regular', sans-serif;
+}
+
+#header {
+    border-bottom: 2px solid #dfb209;
+    height: 100%;
+    margin-bottom: 30px;
+    padding: 14px 0;
+}
+
+.full-name-photographer {
+    color: #374551;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#head-button img {
+    float: right;
+    width: 37px;
+    height: 37px;
+}
+
+#header .top-menu {
+    display: table;
+    width: 100%;
+}
+
+#header .top-content {
+    display: table-row;
+}
+
+#header .top-content > div {
+    display: table-cell;
+}
+
+#head-button {
+    padding: 0;
+}
+
+.header > button:hover {
+    box-shadow: none;
+    width: 41px;
+    height: 41px;
+    background-color: #f9cd28;
+    border: 1px solid #dfb209;
+    border-radius: 5px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #374551;
+    width: 25px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.navbar-toggle {
+    padding: 0;
+    width: 28px;
+    height: 25px;
+    margin: 6px 0 0 15px;
+}
+
 .line {
     border-bottom: 1px solid #e2e6ec;
 }
 
 #photographer-photo {
-    margin: 30px 0 0px;
+    margin: 30px 0 0;
 }
 
-
 .familyContent {
-   display: table;
+    display: table;
     width: 1130px;
     height: 139px;
     background-color: white;
     border: 1px solid #d8dce1;
     border-radius: 3px;
     margin: 30px 0;
+}
+
+.familyContent button {
+    color: white;
+    font-size: 16px;
+    display: table-cell;
+
 }
 
 .area {
@@ -28,35 +97,106 @@
 .area div {
     display: table-cell;
     width: 20%;
-    text-align: center;
     vertical-align: middle;
 }
 
-div>button {
+.main-page div > button {
     display: table;
     width: 150px;
     height: 41px;
     background-color: #374551;
     border: 1px solid #303e4a;
-    border-radius: 5px;
+    margin-left: 30px;
 }
-button {
-    width: 94px;
-    height: 17px;
+
+.main-page div > button:hover {
+    background-color: white;
+    color: #303e4a;
+}
+
+
+
+.photographer-image {
+    margin-top: 30px;
+    position: relative;
+}
+.photographer-country {
     color: white;
-    font-family: 'Bariol Regular', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 72px;
-    vertical-align: middle;
-    display: table-cell;
-    vertical-align: middle;
+    font-weight: 400;
+    line-height: 25px;
+    position: absolute;
+    top: 175px;
+    right: 35%;
 }
-button:hover{
-     box-shadow: none;
-    width: 150px;
-    height: 41px;
-    background-color: #f9cd28;
-    border: 1px solid #dfb209;
-    border-radius: 5px;
+
+.photographer-country img {
+color: white;
+}
+
+.description-profile {
+    color: #767d86;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.total-info {
+    color: #374551;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.total-info span {
+    float: right;
+    color: #767d86;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.organization-photographer {
+    color: #374551;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.photographer-org {
+    color: #374551;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.family-portrait img {
+    margin: 5px;
+}
+
+.web-photographer {
+    color: #374551;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.photographerData a{
+    color: #374551;
+    margin-right: 10px;
+
+}
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: table;
+
+    }
+}
+
+@media (min-width: 1420px) {
+    .container {
+        width: 1400px;
+    }
 }

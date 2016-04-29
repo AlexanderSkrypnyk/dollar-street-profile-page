@@ -7,13 +7,17 @@ var profile = [{
   firstName: 'Boryna',
   country: 'Ukraine',
   places: [1, 3],
-  photo: '00',
+  photo: '/assets/images/layer-8.png',
   visitedFamilies: 45,
   totalPhotos: 5874,
   totalVideos: 3,
   description: 'Some text about photographer ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu varius erat. Suspendisse ultricies laoreet diam eget pulvinar. Morbi imperdiet nibh purus, Some text about photographer ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu varius erat. Suspendisse ultricies laoreet diam eget pulvinar. Morbi imperdiet nibh purus ...',
   organization: 'Cosmos',
-  web: 'www.cosmos.com'
+  web: 'www.cosmos.com',
+  facebook: '//www.facebook.com/boryanaKostova?fref=photo',
+  twitter: '//twitter.com/bokatsarova',
+  google: '//plus.google.com/102454573647937600319',
+  linkedin: '//bg.linkedin.com/in/boryana-kostova-000bbb24'
 }];
 
 var countries = [
@@ -23,11 +27,11 @@ var countries = [
 ];
 
 var places = [
-  {familyPhoto: '00', familyName: 'Pradas', income: 75, region: 'asia', country: 'Philippines', _id: 1},
-  {familyPhoto: '00', familyName: 'Shemede', income: 76, region: 'asia', country: 'Philippines', _id: 2},
-  {familyPhoto: '00', familyName: 'Alu\'s', income: 80, region: 'africa', country: 'China', _id: 3},
-  {familyPhoto: '00', familyName: 'Shemede', income: 86, region: 'africa', country: 'Nigeria', _id: 4},
-  {familyPhoto: '00', familyName: 'Dudakova', income: 96, region: 'europe', country: 'Ukraine', _id: 5}
+  {familyPhoto: '/assets/images/layer-10.png', familyName: 'Pradas', income: 75, region: '/assets/images/asia.png', country: 'Philippines', _id: 1},
+  {familyPhoto: '/assets/images/layer-16.png', familyName: 'Shemede', income: 76, region: '/assets/images/asia.png', country: 'Philippines', _id: 2},
+  {familyPhoto: '/assets/images/layer-12.png', familyName: 'Alu\'s', income: 80, region: '/assets/images/asia.png', country: 'China', _id: 3},
+  {familyPhoto: '/assets/images/layer-13.png', familyName: 'Shemede', income: 86, region: '/assets/images/africa.png', country: 'Nigeria', _id: 4},
+  {familyPhoto: '/assets/images/layer-14.png', familyName: 'Dudakova', income: 96, region: '/assets/images/europe.png', country: 'Ukraine', _id: 5}
 ];
 
 app.use(express.static('public'));
