@@ -11,6 +11,7 @@ a:focus, a:hover {
     background-position: 50% 50%;
     position: relative;
     padding: 50px 0;
+    margin-top: 110px;
 }
 
 #footer:after {
@@ -66,13 +67,11 @@ a:focus, a:hover {
 
 #dollar-street h2 {
     color: white;
-    font-family: 'Bariol Regular', sans-serif;
     font-size: 20px;
     margin: 15px 0;
 }
 
 #dollar-street p {
-    font-family: 'Bariol Regular', sans-serif;
     color: #e0e7ef;
     font-size: 18px;
 }
@@ -94,10 +93,4 @@ a:focus, a:hover {
     display: inline-block;
     text-align: left;
     line-height: 1;
-}
-
-@media (min-width: 1400px) {
-    .container {
-        width: 1400px;
-    }
 }
